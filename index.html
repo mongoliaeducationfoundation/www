@@ -16,7 +16,7 @@
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/bootstrap-social.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
-
+    <link href="style.css" rel="stylesheet">
   </head>
   <!-- NAVBAR
 ================================================== -->
@@ -43,8 +43,9 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#mission">Mission and Vision</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#team">Team</a></li>
                 <li class="dropdown">
                   <a
                     href="#"
@@ -53,11 +54,11 @@
                     role="button"
                     aria-haspopup="true"
                     aria-expanded="false">
-                    Fundraising Campaigns
+                    Campaigns
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Gerhub Community Center</a></li>
+                    <li><a href="#">Ger Innovation Hub</a></li>
                   </ul>
                 </li>
               </ul>
@@ -67,7 +68,6 @@
       </div>
     </div>
 
-
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -75,36 +75,23 @@
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+        <div class="item active" id="slide1">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1 class="featurette-heading"> Mongolia Education Foundation </h1>
+              <p> For Better Future </p>
             </div>
           </div>
         </div>
-        <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+        <div class="item" id="slide2">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1 class="featurette-heading">Ger Innovation Hub</h1>
+              <p>Community Space in the ger areas.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Donate Now</a></p>
             </div>
           </div>
         </div>
@@ -127,43 +114,90 @@
     <div class="container marketing">
 
 
-
-
       <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
+      <div class="row featurette" id="mission">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">
+            Mission and Vision.
+            <span class="text-muted">It'll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla.
+            Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Fusce dapibus, tellus ac cursus commodo.
+          </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img
+            class="featurette-image img-responsive center-block"
+            src="images/KSP_WhitePortraitGirl_Huvsgul_Mongolia_Summer_2013.jpg">
         </div>
       </div>
-
       <hr class="featurette-divider">
-
-      <div class="row featurette">
+      <div class="row featurette" id="projects">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">
+            Project
+            <span class="text-muted">
+              Ger Innovation Hub
+            </span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla.
+            Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Fusce dapibus, tellus ac cursus commodo.
+          </p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img
+            class="featurette-image img-responsive center-block"
+            src="images/Ger_Innovation_Center_Small.jpg">
         </div>
       </div>
-
       <hr class="featurette-divider">
-
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">
+            Project
+            <span class="text-muted">
+              American University
+            </span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla.
+            Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Fusce dapibus, tellus ac cursus commodo.
+          </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img
+            class="featurette-image img-responsive center-block"
+            src="images/Khasar_S_SummerSmile_Fade_Zereg_Hovd_Mongolia_Summer_2016.jpg">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette" id="projects">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">
+            Project
+            <span class="text-muted">
+              Children's Education
+            </span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla.
+            Vestibulum id ligula porta felis euismod semper.
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Fusce dapibus, tellus ac cursus commodo.
+          </p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img
+            class="featurette-image img-responsive center-block"
+            src="images/KSP_WhitePortraitBoy_I_Huvsgul_Mongolia_Summer_2013.jpg">
         </div>
       </div>
 
@@ -172,7 +206,7 @@
       <!-- /END THE FEATURETTES -->
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
+      <div class="row" id="team">
         <div class="col-lg-4">
           <img
             class="img-circle"
